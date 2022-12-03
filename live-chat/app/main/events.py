@@ -38,7 +38,7 @@ def text(message):
 
 
     while True:
-        time.sleep(3)
+        time.sleep(20)
         idx = int(random.randint(0, len(comments)))
         msg = str(comments[idx])
         score = get_score(msg)
